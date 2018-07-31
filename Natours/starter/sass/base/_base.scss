@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  /*border: black solid thin;*/
+  box-sizing: inherit;
+}
+
+html {
+  //set the font size to a percentage to allow users with a custom browser font setting to not have their font-size overridden
+
+  //This essentially defines what one rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
