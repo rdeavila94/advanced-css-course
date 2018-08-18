@@ -10,10 +10,11 @@
 html {
   //set the font size to a percentage to allow users with a custom browser font setting to not have their font-size overridden
 
-  //This essentially defines what one rem is
+  //This essentially defines what one rem is, which is 10px
   font-size: 62.5%;
 }
 
 body {
   box-sizing: border-box;
 }
+
