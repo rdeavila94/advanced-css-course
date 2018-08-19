@@ -1,15 +1,11 @@
 .row {
   //You set the max-width because it CAN be smaller
   max-width: $grid-width;
-  background-color: #eeeeee;
   margin: 0 auto; //Auto works because CSS will set the left and right margins 'automatically', hence they'll be the same
 
   @include clearfix;
 
-  color: $color-white;
-
   [class ^= "col-"] {
-    background-color: orangered;
     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
