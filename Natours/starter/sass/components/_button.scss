@@ -49,6 +49,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &--animated {
     animation: fade-in-up 1s backwards;
     animation-delay: 1s;
